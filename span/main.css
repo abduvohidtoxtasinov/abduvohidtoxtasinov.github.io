@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: red;
+    font-family: serif;
+    font-size: 2em;
+}
+#span1{
+    color: yellow;
+}
+#navbar{
+    background-color: coral;
+    padding: 15px;
+}
+.container{
+   width: 70%;
+   margin: 0 auto;
+}
+#header{
+    background-color: teal;
+}
+.container> ul> li{
+    display: inline;
+}
+.container> ul> li> a{
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    color:#fff;
+    font-family: sans-serif;
+}
+.container> ul> li> a:hover{
+    color: coral;
+}
+#showcase{
+    background-image: url(3f0fb62018e6545596bb4ec7206e61a0.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center ;
+}
+#heading2{
+    color:red;
+    text-align: center;
+    padding-top: 150px;
+}
+.left{
+    width: 60%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    box-sizing: content-box;
+}
+.left> h3{
+    margin-bottom: 10px;
+}
+.right{
+    width: 30%;
+    float: right;
+    margin-top:15px;
+    background-color: rgb(100, 94, 94);
+    padding: 15px;
+}
+.right>p{
+    color: white;
+}
+#clr{
+    clear: both;
+}
+#footer{
+    background-color: #534f4f;
+    margin-top: 30px;
+    text-align: center;
+}
+#footer> p{
+    color: #fff;
+    padding: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
